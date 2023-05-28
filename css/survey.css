@@ -1,0 +1,93 @@
+*{
+  font-family:'Times New Roman', Times, serif;
+  color: #ce8054;
+  scroll-behavior: smooth;
+}
+
+body{
+  background: url(../image/survbg.gif) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav{
+    font-size: 20px;
+    background-color: #233342;
+}
+
+.title{
+  font-family: fantasy;
+}
+
+.navbar-brand{
+  border-radius: 50px;
+  height: 50px;
+  color: #ce8054;
+}
+
+.nav-link{
+    color: #ce8054;
+    transition: .5s linear;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 5px;
+  text-align: center;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.nav-link::before{
+    position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(100%);
+}
+
+.nav-link::after{
+    position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-top: 4px solid transparent;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(-100%);
+}
+
+.nav-link:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.nav-link:hover:before {
+    border-color: #ce8054;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+  }
+  
+  .nav-link:hover:after {
+    border-color: #ce8054   ;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+  }
+
+.navbar-brand{
+    font-size: 30px;
+    color: #ce8054;
+}
+
+.survey{
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
