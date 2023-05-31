@@ -1,0 +1,223 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+    color: #ce8054;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #6f3637;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#home{
+    background: url(../image/mountain.jpg) no-repeat;
+    background-position: absolute;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+i{
+    color: white;
+}
+
+span{
+    color: white;
+}
+
+.navbar-toggler{
+    background-color: #ce8054;
+}
+
+.dropdown-menu{
+    background-color: #233342;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+nav{
+    font-size: 20px;
+    background-color: #233342;
+}
+
+.nav-link{
+  color: #ce8054;
+  transition: .5s linear;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.nav-link::before{
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(100%);
+}
+
+.nav-link::after{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-top: 4px solid transparent;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(-100%);
+}
+
+.nav-link:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.nav-link:hover:before {
+    border-color: #ce8054;
+    height: 90%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+  }
+  
+  .nav-link:hover:after {
+    border-color: #ce8054   ;
+    height: 90%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+  }
+
+.logo{
+    border-radius: 50px;
+    height: 50px;
+    color: #ce8054;
+}
+
+.featurette-divider{
+    color: #ce8054;
+}
+
+/* 
+section{
+    height: 100vh;
+    width: 100%;
+} */
+
+
+.about-us{
+    min-height: 100vh;
+}   
+
+h2{
+    font-weight: bold;
+}
+
+.dropdown-menu{
+    max-width: 50px;
+}
+
+.gallery-section{
+    font-size: 40px;
+    background-color: #b35340;
+}
+
+footer{
+    background-color: #233342;
+    width: 100%;
+}
+
+form{
+    padding-bottom: 20px;
+}
+
+.social-contact ul li{
+    list-style-type: none;
+}
+
+.social-contact ul li a{
+    text-decoration: none;
+    color: #ce8054;
+}
+
+.socials{
+    float: right;
+}
+
+.title-bar{
+    font-size: 30px;
+}
+
+.featurette-image{
+    height: 500px;
+    width: 300px;
+}
+
+.featurette{
+    letter-spacing: 1.5px;
+}
+
+.picture{
+    height: 800px;
+}
+
+.fa-facebook{
+    letter-spacing: 1.5px;
+    font-size: 30px;
+    color: #ce8054;
+}
+
+.fa-github{
+    font-size: 30px;
+    color: #ce8054;
+}
+
+.fa-wordpress{
+    font-size: 30px;
+    color: #ce8054;
+}
+
+.fa-facebook:hover{
+    transition: 1.2s;
+    color: rgb(60, 60, 254);
+    background-color: white;
+    border-radius: 50px;
+}
+
+.fa-github:hover{
+    transition: 1.2s;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 50px;
+}
+
+.fa-wordpress:hover{
+    transition: 1.2s;
+    color: rgb(118, 118, 246);
+    background-color: white;
+    border-radius: 50px;
+}
+
+.fa-phone{
+    color: black;
+}
+
+.fa-location-dot{
+    color: red;
+}
+
+.form-label{
+    cursor: pointer;
+}

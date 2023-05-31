@@ -1,0 +1,62 @@
+*{
+    color: white;
+}
+
+body{
+    background: url(../parapractice/sensen.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+span{
+    color: brown;
+}
+
+nav{
+    background-color: black;
+}
+
+.carousel-item img{
+    height: 450px;
+    padding-top: 40px;
+}
+.title{
+    font-size: 30px;
+    color: rgb(93, 133, 36);
+}
+
+
+.navbar-brand{
+    color: rgb(93, 133, 36);
+    font-size: 30px;
+}
+
+.header{
+    font-style: oblique;
+    color: rgb(93, 133, 36);
+}
+
+.content{
+    font-size: 20px;
+}
+
+.nav-link{
+    color: rgb(93, 133, 36);
+    font-size: 18px;    
+}
+
+hr{
+    color: white;
+}
+/* 
+.char img:hover{
+    padding: 5px;
+}
+
+.char:hover{
+    background-color: rgba(93, 133, 36, 0.75);
+    border: 2px solid rgb(93, 133, 36);
+    border-radius: 20px;
+    transform: scale(1.1);
+    transition: 0.2s;
+} */
